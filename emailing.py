@@ -1,13 +1,13 @@
 import smtplib
 from email.message import EmailMessage
-import ssl
 import os
 import imghdr
 
-sender = "applicationflask8@gmail.com"
-password = os.getenv("PASSWORD")
-receiver = "christosx132@gmail.com"
+sender = "senders email address"
+password = os.getenv("save your password in the environment variables of your operating system")
+receiver = "receivers email address"
 
+# function to send the capture image with email
 
 def send_email(image_path):
     print("send_email function started")
